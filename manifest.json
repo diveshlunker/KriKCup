@@ -1,0 +1,20 @@
+{
+    "name" : "KriKCup",
+    "description" : "Live Cricket Score",
+    "version" : "1.0",
+    
+    
+    "background": {
+      "scripts": ["js/background.js"],
+      "persistent": false
+    },
+    
+    "manifest_version":1,
+    
+    "browser_action":{
+        "default_icon" : "images/icon.png",
+        "default_popup" : "html/index.html"
+    },
+    
+    "permissions": ["notifications", "webview", "storage", "background"],
+}
